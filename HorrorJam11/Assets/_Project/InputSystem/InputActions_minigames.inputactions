@@ -1,0 +1,56 @@
+{
+    "name": "InputActions_minigames",
+    "maps": [
+        {
+            "name": "Minigame_circle",
+            "id": "f733c464-71b4-4ce9-a76e-980f55acc9bd",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "f35633c2-2341-49ae-91c8-35aa2ba84ff4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "774968fe-b26e-4491-bfa8-501128ecdc46",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "7d0eb691-3939-42f2-96f9-2310cc8718f5",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7211b08b-0c52-4899-8c92-a8d9a2eef7bd",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

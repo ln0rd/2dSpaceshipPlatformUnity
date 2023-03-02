@@ -1,0 +1,106 @@
+{
+    "name": "InputActions_player",
+    "maps": [
+        {
+            "name": "CharacterMovement",
+            "id": "fa99f1e8-fca9-4e0c-ae56-b0202933d151",
+            "actions": [
+                {
+                    "name": "Walk",
+                    "type": "Value",
+                    "id": "be7b3e11-9fc8-4d17-8c38-67e29adbfadd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "7edf104e-e7ca-4e05-91cc-59ef1ce09f87",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "e052c64a-3e5e-4530-be22-ca659539cabd",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "036ce825-718e-4a4b-9b82-6a4435f1cb1d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "0940cb5b-f9f3-440c-b130-5a49f01eaa21",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f6a06c91-94aa-4659-9352-d72b925ab239",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Interaction",
+            "id": "46d549ed-a65e-4a3b-9463-310c5d103d7e",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "5de48efb-ae12-49ee-957d-578e9819ca94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e8ce2431-c628-49e4-8c54-14d0eae48730",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

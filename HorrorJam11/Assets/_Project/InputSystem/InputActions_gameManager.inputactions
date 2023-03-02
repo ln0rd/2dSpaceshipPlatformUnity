@@ -1,0 +1,171 @@
+{
+    "name": "InputActions_gameManager",
+    "maps": [
+        {
+            "name": "MainMenu",
+            "id": "d6b6711c-a25e-47cc-bd91-3731d0d35d7e",
+            "actions": [
+                {
+                    "name": "StartGame",
+                    "type": "Button",
+                    "id": "d5249ffe-768e-450f-826c-f1e1bde183c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "854e302c-6206-47a9-a494-cc0530ce4038",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "9d8e11f8-2afc-402a-8256-814c5c7f90c1",
+            "actions": [
+                {
+                    "name": "ActivateDebugAction",
+                    "type": "Button",
+                    "id": "60216111-32b5-4801-9647-e44acb46e928",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ef91cec-acd4-44f6-8809-bdfa73de0a8e",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateDebugAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FinalChoice",
+            "id": "725b7699-0f26-4d38-8bf7-5bdbee18191b",
+            "actions": [
+                {
+                    "name": "Choose",
+                    "type": "Button",
+                    "id": "ea8d013a-a6c3-477c-a86e-ecd3ce26343b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "216dd4f4-904a-432c-ad7e-25aa6dc5982d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b26e1f94-789f-4154-8acb-d3f1db0b8eca",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e7752a2-ebbd-46ee-90fe-3751cec72ba2",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c0858cc0-3afb-44e3-b2ae-540c0c2628ae",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b42ffe0-f20a-4753-b107-3097de5cc775",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4e65b78-6f4e-4170-a05e-db94a7bee5cb",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Cutscenes",
+            "id": "11055137-7608-49bf-a04a-fac32dbaf217",
+            "actions": [
+                {
+                    "name": "Skip",
+                    "type": "Button",
+                    "id": "181d9ba6-9067-45e4-887a-4f9736d40ce8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a902c9f7-48b5-4b51-ac6b-bddff9dc7860",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

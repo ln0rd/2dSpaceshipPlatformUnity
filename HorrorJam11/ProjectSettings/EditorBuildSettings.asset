@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/c0_MainMenu.unity
+    guid: b1b3fb5d44814324e976db3d72740e82
+  - enabled: 1
+    path: Assets/Scenes/c1_TheContext.unity
+    guid: 274f30418c2b1294ebb67a9728c01390
+  - enabled: 1
+    path: Assets/Scenes/c2_TheCalm.unity
+    guid: 0bcbf14c8dd50ae4fa51ca233ea9497c
+  - enabled: 1
+    path: Assets/Scenes/c3_TheKitchen.unity
+    guid: b7d79320c07b4b04bbb64395bd811657
+  - enabled: 1
+    path: Assets/Scenes/c4_TheStorm.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/c5_TheSonAndTheChoise.unity
+    guid: 67fc86891ae536444956f825de51d2d5
+  - enabled: 1
+    path: Assets/Scenes/c6_TheRevelation.unity
+    guid: 01b44f9a2f9bf344380a310023ba4c73
+  - enabled: 1
+    path: Assets/Scenes/c7_TheBadEnd.unity
+    guid: d9d701cd9c0992b4abd9b8503b688c7c
+  - enabled: 1
+    path: Assets/Scenes/c7_TheGoodEnd.unity
+    guid: a9d5b4a9acabf604ebf7391ff9445f4b
+  - enabled: 1
+    path: Assets/Scenes/c8_GameOver.unity
+    guid: 41e6d9544886dd94f91e8aa4ba917a63
+  - enabled: 1
+    path: Assets/Scenes/MiniGame_circle.unity
+    guid: 7542990939a30444abb4e60c8f3744ce
+  m_configObjects: {}
